@@ -1,0 +1,11 @@
+F:\Teste\Teste\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Teste\Teste\bin\Debug\Teste.exe
+F:\Teste\Teste\bin\Debug\Teste.pdb
+F:\Teste\Teste\obj\x86\Debug\Teste.exe
+F:\Teste\Teste\obj\x86\Debug\Teste.pdb
+F:\Teste\Teste\bin\Debug\textoB.txt
+H:\Teste\Teste\obj\x86\Debug\Teste.exe
+H:\Teste\Teste\obj\x86\Debug\Teste.pdb
+H:\Teste\Teste\bin\Debug\textoB.txt
+H:\Teste\Teste\bin\Debug\Teste.exe
+H:\Teste\Teste\bin\Debug\Teste.pdb
