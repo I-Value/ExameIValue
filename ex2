@@ -1,0 +1,49 @@
+<?php 
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// Código de Fernando Capovilla ( 10/10/2013 )
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+		   	header ('Content-type: text/html; charset=utf-8');
+			$url = ('https://raw.github.com/I-Value/ExameIValue/master/textoB.txt');
+			$ch = curl_init();
+			$timeout = 0;
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+			$conteudo = curl_exec ($ch);
+			curl_close($ch);
+			$pedacos = explode(" ", $conteudo);
+			for($i=0;$i<sizeof($pedacos);$i++){
+				//echo $pedacos[$i];
+				$tamanho = strlen($pedacos[$i]);
+				if ($tamanho >= 8){
+					$palavra = $pedacos[$i];
+					$qtdl = strlen($palavra);
+					$qtdl = $qtdl -1;
+					if ($palavra[$qtdl] == 't' 
+					or $palavra[$qtdl] == 's' 
+					or $palavra[$qtdl] == 'w' 
+					or $palavra[$qtdl] == 'l'
+					or $palavra[$qtdl] == 'h' ){
+						 $verbos = $verbos + 1;
+						if ($palavra[0] == 't' 
+						or $palavra[0] == 's' 
+						or $palavra[0] == 'w' 
+						or $palavra[0] == 'l'
+						or $palavra[0] == 'h' ){
+							 $prip = $prip + 1;
+						}
+					}
+					
+					}
+				}
+			echo "TextoB - Verbos: ".$verbos."</br>";
+			echo "TextoB - Primeira Pessoa: ".$prip;
+	
+
+
