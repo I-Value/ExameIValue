@@ -19,17 +19,19 @@ namespace MvcApplication4.Controllers
             // separa o texto num array de palavras
             string[] textoBSplit = TextoB.Split(SeparadorPadrao);
 
-            // instancia o contador de preposicoes
+            // instancia os contadores 
             int verbosContador = 0;
             int verbosPrimeiraPessoaContador = 0;
 
-            // itera no texto verificando para cada palavra se esta satisfaz as condicoes para ser preposicao
+            // itera no texto verificando para cada palavra se esta satisfaz as condicoes para ser verbo
             foreach (string palavra in textoBSplit)
             {
                 if (palavra.Length == NumeroLetrasVerbo
                     && Foo.Contains(palavra[palavra.Length - 1]))
                 {
                     verbosContador++;
+
+                    // faz verificacao adicional para verbo em primeira pessoa
                     if (Foo.Contains(palavra[0]))
                     {
                         verbosPrimeiraPessoaContador++;
