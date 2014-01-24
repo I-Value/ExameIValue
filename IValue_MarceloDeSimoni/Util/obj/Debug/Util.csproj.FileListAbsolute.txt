@@ -1,0 +1,5 @@
+D:\IValue_MarceloDeSimoni\Util\bin\Debug\Util.dll
+D:\IValue_MarceloDeSimoni\Util\bin\Debug\Util.pdb
+D:\IValue_MarceloDeSimoni\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
+D:\IValue_MarceloDeSimoni\Util\obj\Debug\Util.dll
+D:\IValue_MarceloDeSimoni\Util\obj\Debug\Util.pdb

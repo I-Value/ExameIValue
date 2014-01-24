@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IValue_MarceloDeSimoni", "IValue_MarceloDeSimoni\IValue_MarceloDeSimoni.csproj", "{4EEA5A33-E992-4ED2-A893-00AE666E05B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{FDE48E1E-B7B1-42C7-A8FC-5A7D5D2D0876}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EEA5A33-E992-4ED2-A893-00AE666E05B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEA5A33-E992-4ED2-A893-00AE666E05B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEA5A33-E992-4ED2-A893-00AE666E05B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEA5A33-E992-4ED2-A893-00AE666E05B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE48E1E-B7B1-42C7-A8FC-5A7D5D2D0876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE48E1E-B7B1-42C7-A8FC-5A7D5D2D0876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE48E1E-B7B1-42C7-A8FC-5A7D5D2D0876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE48E1E-B7B1-42C7-A8FC-5A7D5D2D0876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
