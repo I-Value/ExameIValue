@@ -1,0 +1,10 @@
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\bin\Debug\IValue_MarceloDeSimoni.exe
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\bin\Debug\IValue_MarceloDeSimoni.pdb
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\bin\Debug\Util.dll
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\bin\Debug\Util.pdb
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.csprojResolveAssemblyReference.cache
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.frmProva.resources
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.Properties.Resources.resources
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.csproj.GenerateResource.Cache
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.exe
+D:\IValue_MarceloDeSimoni\IValue_MarceloDeSimoni\obj\Debug\IValue_MarceloDeSimoni.pdb
