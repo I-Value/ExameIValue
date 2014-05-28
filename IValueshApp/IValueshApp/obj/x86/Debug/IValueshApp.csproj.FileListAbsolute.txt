@@ -1,0 +1,9 @@
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\bin\Debug\IValueshApp.exe
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\bin\Debug\IValueshApp.pdb
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\IValueshApp.FormApp.resources
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\IValueshApp.Properties.Resources.resources
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\IValueshApp.exe
+C:\Users\Andao\documents\visual studio 2010\Projects\IValueshApp\IValueshApp\obj\x86\Debug\IValueshApp.pdb
