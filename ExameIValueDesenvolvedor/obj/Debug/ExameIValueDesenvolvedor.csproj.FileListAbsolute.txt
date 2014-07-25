@@ -1,0 +1,5 @@
+c:\users\plinio ciccio\documents\visual studio 2013\Projects\ExameIValueDesenvolvedor\ExameIValueDesenvolvedor\bin\Debug\ExameIValueDesenvolvedor.exe.config
+c:\users\plinio ciccio\documents\visual studio 2013\Projects\ExameIValueDesenvolvedor\ExameIValueDesenvolvedor\bin\Debug\ExameIValueDesenvolvedor.exe
+c:\users\plinio ciccio\documents\visual studio 2013\Projects\ExameIValueDesenvolvedor\ExameIValueDesenvolvedor\bin\Debug\ExameIValueDesenvolvedor.pdb
+c:\users\plinio ciccio\documents\visual studio 2013\Projects\ExameIValueDesenvolvedor\ExameIValueDesenvolvedor\obj\Debug\ExameIValueDesenvolvedor.exe
+c:\users\plinio ciccio\documents\visual studio 2013\Projects\ExameIValueDesenvolvedor\ExameIValueDesenvolvedor\obj\Debug\ExameIValueDesenvolvedor.pdb
