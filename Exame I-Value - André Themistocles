@@ -1,0 +1,166 @@
+VERSION 5.00
+Begin VB.Form Form1 
+   Caption         =   "Form1"
+   ClientHeight    =   2400
+   ClientLeft      =   48
+   ClientTop       =   432
+   ClientWidth     =   3744
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   2400
+   ScaleWidth      =   3744
+   StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command2 
+      Caption         =   "Verbos"
+      Height          =   492
+      Left            =   1200
+      TabIndex        =   1
+      Top             =   1440
+      Width           =   1332
+   End
+   Begin VB.CommandButton Command1 
+      Caption         =   "Preposições"
+      Height          =   492
+      Left            =   1200
+      TabIndex        =   0
+      Top             =   600
+      Width           =   1332
+   End
+End
+Attribute VB_Name = "Form1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub Command1_Click()
+'Rotina que conta preposição
+
+'Neste arquivo deverá ser colado o texto a ser analisado
+Open "c:\1.txt" For Input As #1
+'Onde vai gravar a lista de preposições
+Open "c:\2.txt" For Output As #2
+'Vai contar as preposições
+prep = 0
+
+'Ciclo que le o texto
+Do
+
+'carrega linha a linha
+Line Input #1, a$
+
+b$ = ""
+c$ = ""
+conta = 0
+
+'Percorre linha
+For f = 1 To Len(a$)
+
+'Verifica se tem espaço, então formou uma palavra
+b$ = Mid$(a$, f, 1)
+If b$ = " " Then
+    'Se tiver 3 letras. pode ser preposição, entra aqui
+    If conta = 3 Then
+        valida = 0
+        'Verifica se não tem aletra"m", se tiver, já descarta
+        For g = 1 To 3
+            If Mid$(c$, g, 1) = "m" Then valida = 1
+        Next g
+        t$ = Mid$(c$, 3, 1)
+        If valida = 0 Then
+        'Verifdica se termina numa letra "foo"
+            If t$ = "t" Or t$ = "s" Or t$ = "w" Or t$ = "l" Or t$ = "h" Then
+                'Grava no arquivo
+                Print #2, c$
+                'Conta
+                prep = prep + 1
+            End If
+        End If
+    End If
+c$ = ""
+conta = 0
+Else
+'Enquanto não acha espaço, vai seguindo a linha
+conta = conta + 1
+'Vai criando a palavra atual
+c$ = c$ + Mid$(a$, f, 1)
+End If
+
+
+Next f
+
+
+
+Loop Until EOF(1)
+'Terminou de percorer o texto
+
+'Mostra resultado
+MsgBox prep
+
+Close
+
+End Sub
+
+Private Sub Command2_Click()
+'Rotina que conta verbos
+
+'Neste arquivo deverá ser colado o texto a ser analisado
+Open "c:\3.txt" For Input As #1
+'Onde vai gravar a lista de verbos
+Open "c:\4.txt" For Output As #2
+'Conta os verbos
+verbo = 0
+'Conta as preposições
+pessoa = 0
+
+Do
+
+'carrega linha a linha
+Line Input #1, a$
+
+b$ = ""
+c$ = ""
+conta = 0
+
+'Percorre linha
+For f = 1 To Len(a$)
+
+b$ = Mid$(a$, f, 1)
+'Verifica se tem espaço, então formou uma palavra
+If b$ = " " Then
+    'Verifica se palavra tem mais de 7 letras
+    If conta > 7 Then
+        valida = 0
+        t$ = Mid$(c$, Len(c$), 1)
+        'Verifica se palavra termina com letra "foo"
+            If t$ = "t" Or t$ = "s" Or t$ = "w" Or t$ = "l" Or t$ = "h" Then
+                Print #2, c$
+                'Soma verbo
+                verbo = verbo + 1
+                t$ = Mid$(c$, 1, 1)
+                'Verifica se palavra começa com letra "foo"
+                If t$ = "t" Or t$ = "s" Or t$ = "w" Or t$ = "l" Or t$ = "h" Then
+                    'Soma verbo em 1 pessoa
+                    pessoa = pessoa + 1
+                End If
+            End If
+    End If
+c$ = ""
+conta = 0
+Else
+'Enquanto não acha espaço, vai seguindo a linha
+conta = conta + 1
+'Vai criando a palavra atual
+c$ = c$ + Mid$(a$, f, 1)
+End If
+
+
+Next f
+
+Loop Until EOF(1)
+
+'Mostra resultados
+MsgBox verbo
+MsgBox pessoa
+
+Close
+
+End Sub
