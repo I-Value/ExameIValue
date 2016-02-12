@@ -1,0 +1,10 @@
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\bin\Release\FormExameIValue.Isaac.exe
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\bin\Release\FormExameIValue.Isaac.pdb
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\bin\Release\IValuesh.Dicionario.dll
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\bin\Release\IValuesh.Dicionario.pdb
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExame.csprojResolveAssemblyReference.cache
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExameIValue.Isaac.FormLeitura.resources
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExameIValue.Isaac.Properties.Resources.resources
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExame.csproj.GenerateResource.Cache
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExameIValue.Isaac.exe
+D:\Projetos\IValueTeste\FormExameIValue.Isaac\obj\x86\Release\FormExameIValue.Isaac.pdb

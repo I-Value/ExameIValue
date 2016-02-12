@@ -1,0 +1,4 @@
+D:\Projetos\IValueTeste\IValuesh.Dicionario\bin\Release\IValuesh.Dicionario.dll
+D:\Projetos\IValueTeste\IValuesh.Dicionario\bin\Release\IValuesh.Dicionario.pdb
+D:\Projetos\IValueTeste\IValuesh.Dicionario\obj\Release\IValuesh.Dicionario.dll
+D:\Projetos\IValueTeste\IValuesh.Dicionario\obj\Release\IValuesh.Dicionario.pdb
